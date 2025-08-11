@@ -1,0 +1,16 @@
+O objetivo deste algoritmo é calcular a multiplicação de 9 por um número n utilizando um método simplificado.
+
+Primeiro, o programa solicita que o usuário digite um número inteiro n.
+
+Em seguida, calcula-se o primeiro dígito subtraindo 1 de n. Depois, calcula-se o segundo dígito fazendo 10 - n.
+
+O resultado final é obtido multiplicando o primeiro dígito por 10 e somando o segundo dígito.
+
+Fórmula: resultado = (n - 1) × 10 + (10 - n)
+
+Exemplo: se o usuário digitar 7:
+- Primeiro dígito = 7 - 1 = 6
+- Segundo dígito = 10 - 7 = 3
+- Resultado final = (6 × 10) + 3 = 63
+
+Por fim, o programa exibe o resultado da multiplicação 9 × n na tela.
